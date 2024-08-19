@@ -1,3 +1,36 @@
+.container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  margin: auto;
+
+}.featured {
+  color: #052e51;
+  background-color: #8c91f1;
+  padding: 10px;
+  border-radius: 10px;
+  border: solid 3px pink;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 15px;
+  max-width: 300px;;
+}
+
+.names {
+  color:#052e51;
+  background-color: rgb(119, 174, 237);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 10px;
+  border: solid 3px rgb(196, 218, 239);
+  padding: 10px;
+  margin: 15px;
+  min-width: 300px;
+
+}
+
+.names:hover {
+  color: #646cff;
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -33,6 +66,8 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #888df6;
 }
 
 button {
